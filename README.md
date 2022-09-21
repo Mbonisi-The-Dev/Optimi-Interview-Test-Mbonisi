@@ -6,7 +6,7 @@ Installation Instructions
  
  -Use the commandline or Gitbash to navigate to the local of the project.
  
- -Make sure you Node Js installed in your machine.
+ -Make sure you have Node Js installed in your machine.
  
  -Run the following to make sure everything is fine:
  
