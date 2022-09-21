@@ -37,7 +37,7 @@ $(document).ready(function (){
                 
                 let imageGr = document.getElementById("imageG");
                 imageGr.appendChild(image);
-                console.log("image link: " + imgLink);
+                //console.log("image link: " + imgLink);
 
                 // Group Name
                 console.log(" " + optimiArray[a].name  + " ");
@@ -62,7 +62,7 @@ $(document).ready(function (){
                     const optionValue2 = document.createTextNode(optionValue);
                     option.appendChild(optionValue2);
                     dropdown.appendChild(option);
-                    console.log("group name: " + optimiArray[a].groups[b].name);                        
+                    //console.log("group name: " + optimiArray[a].groups[b].name);                        
                 }
                 var textp = document.createElement("span");
                 textp.innerHTML = "+ add group";
@@ -79,7 +79,6 @@ $(document).ready(function (){
     
     main(); 
 
-    //document.getElementById('searchGroup').addEventListener("keyup", searchGroup);
     document.getElementById('searchGroup').addEventListener("keyup", () => {
       searchGroup();
       highlight();
@@ -95,17 +94,18 @@ $(document).ready(function (){
           x[i].style.display = "none";
         } else 
         {
-          console.log("results:" + input);
-          console.log(x[i].innerHTML);
+          //console.log("results:" + input);
+          //console.log(x[i].innerHTML);
 
+          //highlight text
           let newList = x[i].innerHTML;
           let srchString = document.createElement("mark");
           let txtNode = document.createTextNode(input);
           srchString.appendChild(txtNode);
-
           let resultWord = newList.replace( input , srchString);
-          console.log(" new words" + resultWord);
+          console.log(" new words" + resultWord);          
           //resultWord.style.display = "list-item";
+
           x[i].style.display = "list-item";
 
         }
@@ -114,7 +114,7 @@ $(document).ready(function (){
 
     function highlight()
     {
-      console.log("mark the text");
+      //console.log("mark the text");
       /*var opar = document.getElementsByClassName('groupName').innerHTML;
 
       var paragraph = document.getElementsByClassName('groupName');
