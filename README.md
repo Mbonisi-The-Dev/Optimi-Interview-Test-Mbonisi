@@ -1,4 +1,4 @@
-Optimi Interview Test Mbonisi
+#Optimi Interview Test Mbonisi
 
 Installation Instructions
 
@@ -9,7 +9,9 @@ Installation Instructions
  -Make sure you Node Js installed in your machine.
  
  -Run the following to make sure everything is fine:
+ 
   => npm install express --save
+  
   => node index.js  - this will start the local server
   
 This project is built on Javascript, Html and CSS.
