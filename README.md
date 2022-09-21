@@ -1,6 +1,7 @@
 Optimi Interview Test Mbonisi
 
 Installation Instructions
+
  -Clone the project to you local machine.
  
  -Use the commandline or Gitbash to navigate to the local of the project.
