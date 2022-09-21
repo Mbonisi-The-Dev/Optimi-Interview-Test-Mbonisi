@@ -9,6 +9,7 @@ app.get('/', (req, res) => {        //get requests to the root ("/") will route 
 });
 app.use('/js', express.static(__dirname + '/js'));
 app.use('/css', express.static(__dirname + '/css'));
+app.use('/projects', express.static(__dirname + '/projects'));
 
 app.listen(port, () => {            //server starts listening for any attempts from a client to connect at port: {port}
     console.log(`Now listening on port ${port}`); 

@@ -1,5 +1,5 @@
 $(document).ready(function (){
-    var endpoint = "./js/data.js";
+    var endpoint = "./projects/data.js";
    let groupName = [];
    //let dropdown = document.getElementById("groupsOpti");
    let dropdown = document.getElementById("groupsList");
@@ -31,7 +31,7 @@ $(document).ready(function (){
                 const imgLink = optimiArray[a].image.link;
                 image.src = imgLink;
                 image.setAttribute("src", imgLink);
-                image.setAttribute("width", "40");
+                image.setAttribute("class", "projImage");
                 image.setAttribute("height", "40");
                 //document.getElementsByClassName("imageG").src = imgLink;
                 
